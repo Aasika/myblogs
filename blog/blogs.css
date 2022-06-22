@@ -1,0 +1,51 @@
+body{
+    background: black;
+}
+h1{
+    text-align: center;
+    text-decoration: solid;
+    font-size: 4rem;
+    color: white;
+    margin-top: 50px;
+}
+p{
+    text-align: center;
+    font-size: 1.4rem;
+    /* color: #F5F9E9; */
+    color:white ;
+    margin: 70px;
+
+}
+
+span{
+    color: #f9004d;
+}
+.row{
+    display: flex;
+    justify-content: space-evenly;
+}
+h4{
+    color: #f9004d;
+    font-size: 1.2rem;
+    margin-left: -30px;
+}
+
+.icons:hover{
+    animation-name: rotation;
+    animation-duration: .25s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+}
+
+@keyframes rotation{
+    0%{
+        transform: rotate(0deg);
+    }
+    50%{
+        transform: rotate(180deg);
+    }
+    100%{
+        transform: rotate(359deg);
+    }
+}
